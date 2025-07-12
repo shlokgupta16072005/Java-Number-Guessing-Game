@@ -4,7 +4,7 @@ public class NumberGuessingGame {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int number = (int)(Math.random()*100 + 1);
-        int count = 0;
+        int count = 1;
                 int guess = input.nextInt();
         while(guess != number) {
             if(guess < number) {
